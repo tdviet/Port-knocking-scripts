@@ -12,6 +12,7 @@
 
 # Current version do not check status of port knocking
 # so ignore error message like "Chain already exists" or "Bad rules"
+# Ref. https://www.debian-administration.org/article/268/Multiple-port_knocking_Netfilter/IPtables_only_implementation
 
 # Please define a chain of 4 ports
 PORTS=(1234 2345 3456 4567)
