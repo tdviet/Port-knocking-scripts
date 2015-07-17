@@ -12,7 +12,7 @@
 PORTS=(1234 2345 3456 4567)
 
 # Default destination
-DEST="147.213.76.130"
+DEST="10.0.0.1"
 
 if [ ! -z "$1" ]; then DEST=$1; fi
 
